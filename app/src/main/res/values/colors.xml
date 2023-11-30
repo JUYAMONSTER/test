@@ -21,4 +21,5 @@
     <color name="todo_scheme2">#ea9518</color>
     <color name="todo_scheme3">#2aa515</color>
     <color name="todo_scheme4">#bfbfbf</color>
+    <color name="colorTextRed">#ff0000</color>
 </resources>

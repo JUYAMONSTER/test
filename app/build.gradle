@@ -21,6 +21,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+
     buildTypes {
         release {
             minifyEnabled false
@@ -51,15 +52,18 @@ dependencies {
         implementation "androidx.room:room-ktx:$room_version"
 
     //DialogX
-    def dialogx_version = "0.0.45.beta9"
+    def dialogx_version = "0.0.49"
         implementation "com.github.kongzue.DialogX:DialogX:${dialogx_version}"
         implementation "com.github.kongzue.DialogX:DialogXIOSStyle:${dialogx_version}"
 
     //日历组件
-    implementation 'com.github.angcyo:CalendarView:3.7.1.36'
+    //implementation 'com.github.angcyo:CalendarView:3.7.1.36'
+
+    //캘린더
+    implementation 'com.github.kizitonwose:Calendar:2.4.0'
 
     //DateTimePicker
-    implementation 'com.github.loperSeven:DateTimePicker:0.5.7'
+    implementation 'com.github.loperSeven:DateTimePicker:0.6.3'
 
     //圆形进度条
     implementation 'com.mikhaellopez:circularprogressbar:3.1.0'
